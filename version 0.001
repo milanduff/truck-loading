@@ -1,0 +1,33 @@
+// laden trucks.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+
+int main() 
+{
+    int ccontainer = 21;
+    int ctruck = 33;
+    int container;
+    int truck;
+
+    std::cout << "Is it a container or truck? \n";
+
+    std::cin >> truck;
+    std::cin >> container;
+
+    if (container == ccontainer) {
+        std::cout << "container\n";
+    
+    }
+    if (truck == ctruck)  {
+        std::cout << "truck\n";
+
+    
+    }
+    else {
+        std::cout << "container or truck?\n";
+    }
+
+}
+
+
